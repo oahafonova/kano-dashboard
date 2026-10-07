@@ -8,7 +8,9 @@ from datetime import datetime
 st.set_page_config(page_title="Kano-Dashboard", layout="centered")
 
 # Pfad zur DB (bei Bedarf anpassen)
-DB_PATH = r"C:\Users\intune\Desktop\DIPLOMARBEIT\DBQualitaet\kano.db"
+# DB_PATH = r"C:\Users\intune\Desktop\DIPLOMARBEIT\DBQualitaet\kano.db"
+DB_PATH = "kano.db"
+
 PRODUCT_NAME = "Industrieklebstoff"
 
 FEATURES = [
